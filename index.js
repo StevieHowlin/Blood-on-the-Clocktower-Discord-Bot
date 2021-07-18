@@ -10,4 +10,4 @@ client.on('ready', () => {
     console.log('Bot online.');
 });
 
-client.on('message', commandHandler, 8);
+client.on('message', commandHandler);
